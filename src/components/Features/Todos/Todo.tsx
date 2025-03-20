@@ -30,7 +30,7 @@ const Todo = () => {
   return (
     <DndContext onDragEnd={handleDragEnd}>
       <div className="flex flex-col items-center ">
-        <Image src="/todo.avif" alt="ToDo List" width={200} height={200} />
+        <Image src="/todo.avif" alt="ToDo List" width={200} height={200}  className="dark:rounded-lg"/>
         <h1 className="text-2xl font-bold text-center mb-10">ToDo List App</h1>
       </div>
 
